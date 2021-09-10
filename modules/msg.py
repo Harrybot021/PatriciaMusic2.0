@@ -6,7 +6,7 @@ class Messages():
       START_MSG = """
 **Hello 👋 [{}](tg://user?id={})!**
 
-🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.
+🤖 I am an advanced bot created by [RUPAYAN🤠](https://t.me/Rupayan_Iz_Here) for playing music in the voice chats of Telegram Groups & Channels.
 
 ✅ Send me /help for more info.
 """
