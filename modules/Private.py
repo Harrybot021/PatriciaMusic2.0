@@ -17,7 +17,7 @@ def _start(client, message):
             InlineKeyboardButton("📲 Updates 💫", url=f"https://t.me/{UPDATES_CHANNEL}"), 
             InlineKeyboardButton("💬 Support 💫", url=f"https://t.me/{GROUP_SUPPORT}")
             ],[
-            InlineKeyboardButton("💫 OWNER 💫", url=f"https://t.me/Rupayan_Iz_Here") 
+            InlineKeyboardButton("💫 OWNER 💫", url=f"https://github.com/Harrybot021/PatriciaMusic2.0") 
           ]]
         ),
         reply_to_message_id=message.message_id
@@ -66,7 +66,7 @@ def map(pos):
             [InlineKeyboardButton("❤ Add MARKO to your Group ❤", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates 💫', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support 💫', url=f"https://t.me/{GROUP_SUPPORT}")],
-            [InlineKeyboardButton(text = '💫 OWNER 💫', url=f"https://t.me/Rupayan_Iz_Here)],
+            [InlineKeyboardButton(text = '💫 OWNER 💫', url=f"https://github.com/Harrybot021/PatriciaMusic2.0)],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
     else:
